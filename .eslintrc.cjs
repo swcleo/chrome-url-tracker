@@ -9,6 +9,10 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting'
   ],
+  "glbals": {
+    // Chrome Extensions API
+    "chrome": true
+  },
   parserOptions: {
     ecmaVersion: 'latest'
   }
