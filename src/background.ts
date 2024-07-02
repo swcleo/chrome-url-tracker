@@ -1,15 +1,14 @@
-/* eslint-disable no-unused-vars */
 const allowedDomains = [
     'example.com',
 ];
 
-function isAllowedDomain(url) {
+function isAllowedDomain(url: string) {
     // const urlObj = new URL(url);
     // return allowedDomains.includes(urlObj.hostname);
     return true;
 }
 
-async function addVisitedUrl(url) {
+async function addVisitedUrl(url = "") {
     if (!isAllowedDomain(url)) {
         return;
     }
