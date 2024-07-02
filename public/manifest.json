@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Chrome URL Tracker",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "A Chrome extension to track URL changes.",
   "permissions": [
     "tabs",
